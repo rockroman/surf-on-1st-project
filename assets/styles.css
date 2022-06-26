@@ -99,3 +99,51 @@ h1{
     border: outset;
 
 }
+/* welcome section shows user a brief info what SURFon is about */
+#welcome-section{
+    padding-top: 0;
+    margin-top: 0%;
+    
+    
+
+}
+/* making h2 text blends with h1 into a nice inviting quote */
+h2{
+    font-size: 3.3rem;
+    width: 50%;
+    margin-top: 0;
+    vertical-align: bottom;
+}
+/* setting height to a welcome section img */
+#welcome-message > img{
+    width: 50%;
+    height: 100%;
+    border: .6px solid gray;
+    box-shadow:3px 3px 2px rgb(49, 47, 47) ;
+    border-style: inset;
+      
+}
+/* putting img and text into a container as a part of section then putting some space between */
+#welcome-message{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+}
+/* wraped introduction text into a nicely styled container */
+
+#welcome-text{
+    width: 38%;
+    border: .6px solid gray;
+    box-shadow:3px 3px 2px rgb(49, 47, 47) ;
+    border-style: inset;
+    font-size: 1.4rem;
+    padding: 2%;
+    text-align: left;
+   
+}
+/* making company name more appealing with two color text style */
+em{
+    color: red;
+}

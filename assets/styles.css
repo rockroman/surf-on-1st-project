@@ -1,0 +1,57 @@
+/* setting a color palette for project with creating css variables */
+:root{
+    --clr-sect:rgb(91, 91, 194);
+    --clr-hero-txt:white;
+    --clr-hero2-txt:rgb(11, 11, 37);
+    --clr-header-nav-footer: rgb(10, 10, 10);   
+}
+/* setting small padding for whole body element and removing margin  */
+body{
+    padding: .6%;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* making header a flex container to help me align logo by navigation bar */
+header{
+    display: flex;
+    background-color: var(--clr-header-nav-footer);
+    padding-left: 5%;
+    align-items: center;   
+}
+/* putting logo of company in top left corner(logo made with "looka.com" */
+#logo{
+    height:9vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin: auto;   
+}
+/*setting navigation bar,keep it stick to top of screen on scroll  */
+nav{
+    background-color:rgb(11, 11, 37);
+    height: 10vh;
+    display: flex;
+    gap: 3%;
+    justify-content:center;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    width: 100%;  
+}
+/* added styling to nav buttons,make them look like tabs */
+.nav-btn{
+    border: 2px solid rgb(12, 62, 202) ;
+    box-shadow: 2px 4px 5px rgb(93, 93, 116);
+    border-top : 3px solid rgb(91, 91, 194);
+    border-left: 3px solid rgb(91, 91, 194);
+    border-right: 3px solid rgb(91, 91, 194);
+    border-style:inset;
+    width: 12%;
+    height: 45%;
+    border-radius: .36rem;
+    text-decoration: none;
+    color: var(--clr-hero-txt);
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -157,21 +157,82 @@ hr{
 /* our services section is giving insigt to user what SURF-ON is offering */
 #services{
     padding-top: 1%;
+    background-color: var(--clr-header-nav-footer);
+    margin: 0;
+    padding-left: .2%;
+   
 }
 /* styling title of a section */
 #services > h3{
     font-size: 2rem;
     margin-top: 1%;
     text-align: center;
-    color: var(--clr-header-nav-footer);
+    color:var(--clr-hero-txt);
+   
+}
+/* flexbox container for two our-service cards */
+#service-cards{
+    display: flex;
+    padding: 1%;
+    gap: 3%;
 }
 /* lessons card ,an overview of what is taught and what way */
 #lessons{
-    border:1px solid black ;
-    width: 40%;
+    border:1px solid --clr-hero-txt ;
+    box-shadow:1px 1px 1px 3px rgb(146, 131, 131)  ;
+    width: 45%;
+    height: 75vh;
+    padding: 2% 2% 5% 2%;
 
 }
 /* styling a title of lessons card */
 #lessons > h2{
+    width: 100%;
     font-size: 1.5rem;
+    text-align: center;
+    color: var(--clr-hero-txt);
+   
+}
+/* making card img display above paragraph and centering it */
+#our-lessons{
+    width:100%;
+    height: 70%;
+    box-shadow: 0 1px 0 2px gray;
+    
+}
+/* styling paragraph and lef aligning it */
+#lessons >p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: var(--clr-hero-txt);
+}
+/* "camps" card ,surfing camps SURF-ON is offering */
+#camps{
+    border:1px solid --clr-hero-txt ;
+    box-shadow:1px 1px 1px 3px rgb(146, 131, 131)  ;
+    width: 45%;
+    height: 75vh;
+    padding: 2% 2% 5% 2%;
+
+}
+/*  */
+#camps > h2{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--clr-hero-txt);
+   
+}
+/*  */
+#our-camps{
+    width:100%;
+    height: 70%;
+    box-shadow: 0 1px 0 2px gray;
+    
+}
+/*  */
+#camps >p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: var(--clr-hero-txt);
 }

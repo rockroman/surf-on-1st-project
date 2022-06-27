@@ -147,3 +147,31 @@ h2{
 em{
     color: red;
 }
+/* styling horizontal reference to clearly separate sections */
+hr{
+    height: 1px;
+    border: .5px solid black;
+    margin-top: 2%;
+    background-color: var(--clr-header-nav-footer);
+}
+/* our services section is giving insigt to user what SURF-ON is offering */
+#services{
+    padding-top: 1%;
+}
+/* styling title of a section */
+#services > h3{
+    font-size: 2rem;
+    margin-top: 1%;
+    text-align: center;
+    color: var(--clr-header-nav-footer);
+}
+/* lessons card ,an overview of what is taught and what way */
+#lessons{
+    border:1px solid black ;
+    width: 40%;
+
+}
+/* styling a title of lessons card */
+#lessons > h2{
+    font-size: 1.5rem;
+}

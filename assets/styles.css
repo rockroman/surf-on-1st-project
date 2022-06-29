@@ -37,6 +37,11 @@ nav{
     top: 0;
     width: 100%;  
 }
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
 /* added styling to nav buttons,make them look like tabs */
 .nav-btn{
     border: 2px solid rgb(12, 62, 202) ;
@@ -184,10 +189,10 @@ hr{
 }
 /* lessons card ,an overview of what is taught and what way */
 #lessons{
-    border:1px solid --clr-hero-txt ;
+    border:1px solid var(--clr-hero-txt) ;
     box-shadow:1px 1px 1px 3px rgb(146, 131, 131)  ;
     width: 470px;
-    max-width: 700px;
+    /* max-width: 700px; */
     height: 550px;
     padding:4%;
     margin-top: 2%;
@@ -216,7 +221,7 @@ hr{
 }
 /* "camps" card ,surfing camps SURF-ON is offering */
 #camps{
-    border:1px solid --clr-hero-txt ;
+    border:1px solid var(--clr-hero-txt);
     box-shadow:1px 1px 1px 3px rgb(146, 131, 131)  ;
     width: 470px;
     height: 550px;
